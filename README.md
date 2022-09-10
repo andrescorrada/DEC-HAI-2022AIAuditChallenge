@@ -61,7 +61,7 @@ and not just on the learning side.
 
 ### Robust to out-of-distribution shifts between training and deployment.
 
-An immediately advantage of having algebraic evaluators is that the problem of out-of-distribution
+An immediate advantage of having algebraic evaluators is that the problem of out-of-distribution
 shifts is side-stepped. No assumptions are made about distributions so shifts in them are not
 directly relevant to their execution. But this does not make algebraic evaluators immune to
 environmental shifts. They are not robust to environmental changes that make the classifiers
