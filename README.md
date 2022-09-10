@@ -1,4 +1,4 @@
-# Algebraic Evaluators of Noisy Judges on Unlabeled Data: Benefits and Limitations for AI Auditing
+# Thermometers for AI Auditing: Algebraic Evaluators of Noisy Judges on Unlabeled Data
 
 ![Algebraic evaluation of four noisy UCI Adult classifiers](img/UCIAdultPanel.jpg)
 
