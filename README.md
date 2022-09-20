@@ -2,7 +2,7 @@ Thermometers for AI Auditing: Algebraic Evaluators of Noisy Judges on Unlabeled 
 ====================================================================================
 
 <figure>
-    <img src="img/onlyIntelligentEvaluation.png"
+    <img src="img/OnlyIntelligentEvaluation.png"
          alt="The master/disciple evaluation paradigm."
          height="600">
     <figcaption>
