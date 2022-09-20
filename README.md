@@ -4,7 +4,7 @@ Thermometers for AI Auditing: Algebraic Evaluators of Noisy Judges on Unlabeled 
 <figure>
     <img src="img/OnlyIntelligentEvaluation.png"
          alt="The master/disciple evaluation paradigm."
-         height="600">
+         height="400">
     <figcaption>
     The assumption of "only intelligent evaluation"</figcaption>
 </figure>
@@ -67,7 +67,7 @@ them further.
 <figure>
     <img src="img/AlgebraicEvaluation.png"
          alt="Severing the master/disciple paradigm of only-intelligent evaluation"
-         height="600">
+         height="400">
     <figcaption>
     Severing the master/slave relationship of "only intelligent evaluation"</figcaption>
 </figure>
