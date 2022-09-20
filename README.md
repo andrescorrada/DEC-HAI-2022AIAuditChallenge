@@ -1,6 +1,7 @@
 Thermometers for AI Auditing: Algebraic Evaluators of Noisy Judges on Unlabeled Data
 ====================================================================================
 
+<p>
 <figure>
     <img src="img/OnlyIntelligentEvaluation.png"
          alt="The master/disciple evaluation paradigm."
@@ -8,9 +9,7 @@ Thermometers for AI Auditing: Algebraic Evaluators of Noisy Judges on Unlabeled 
     <figcaption>
     The assumption of "only intelligent evaluation"</figcaption>
 </figure>
-
-
-![]()
+</p>
 
 Who judges the judges? The problem of the authority of noisy judges when we
 ourselves don't know their correct answers is pervasive in society and
@@ -64,6 +63,7 @@ them further.
 
 ## The role of distribution-free evaluators of noisy judges in AI safety and monitoring
 
+<p>
 <figure>
     <img src="img/AlgebraicEvaluation.png"
          alt="Severing the master/disciple paradigm of only-intelligent evaluation"
@@ -71,7 +71,7 @@ them further.
     <figcaption>
     Severing the master/slave relationship of "only intelligent evaluation"</figcaption>
 </figure>
-
+</p>
 
 A central claim in our submission is that the AI community is almost exclusive
 engaged with methods for AI safety that rely on probability distributions. We
@@ -86,7 +86,7 @@ have thermometers is better than one where they don't. These are some of the
 reasons we shoud be spending more effort on the evaluation side of AI and not
 just on the learning side.
 
-### Robust to out-of-distribution shifts between training and deployment.
+### 1. Robust to out-of-distribution shifts between training and deployment.
 
 An immediate advantage of having algebraic evaluators is that the problem of
 out-of-distribution shifts is side-stepped. No assumptions are made about
@@ -96,7 +96,7 @@ are not robust to environmental changes that make the classifiers themselves
 error correlated on the test sample. This raises an AI safety paradox. The
 algebraic nature of the solution gives us a way to mitigate this safety failure.
 
-### Algebraic outputs can help alarm when evaluation assumptions are wrong.
+### 2. Algebraic outputs can help alarm when evaluation assumptions are wrong.
 
 The algebraic evaluator that forms the core of our submission is a deterministic
 function that produces algebraic numbers. It has one big Achilles heel - it only
@@ -105,7 +105,7 @@ This "bug" is a safety "feature." The appearance of out of bounds or complex
 numbers in the output of the evaluator would be an immediate signal that the
 evaluator's independence assumptions are horribly wrong. This is useful.
 
-### Accessible even to highly motivated high school students.
+### 3. Accessible even to highly motivated high school students.
 
 The mathematics used in the AI thermometer in this submission comes from
 Algebraic Geometry. A well known and respected textbook on the subject for
