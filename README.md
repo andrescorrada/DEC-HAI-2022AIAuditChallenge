@@ -161,7 +161,7 @@ used by algebraic evaluators. It contrasts it with the distribution independence
 definition. In addition, it provides definitions for all the error correlations
 needed to completely describe any ensemble of binary classifiers.
 
-6.[EvaluatingSamplesIsNotLearningDistributions.md](./EvaluatingSamplesIsNotLearningDistributions.md)
+6. [EvaluatingSamplesIsNotLearningDistributions.md](./EvaluatingSamplesIsNotLearningDistributions.md)
 points out the differences between the statistics of finite samples and the
 statistics of infinite samples that are  most relevant to understanding the
 strengths and limitations of algebraic  evaluators. It also illustrates how
