@@ -122,3 +122,55 @@ Wolfram and Raspberry Pi extend further the possible audience of young
 researchers and inventors that can play with these ideas.
 
 ## A Guide to the Repository
+
+1. [TheCoreTheorem.nb](./TheCoreTheorem.nb) illustrates the core mathematical idea
+of this submission - we can build systems of polynomial equations that relate
+unknown evaluation statistics to observable moments of the decisions by the
+classifiers on a test sample. in the case of error independent classifiers, the
+resulting polynomial system is exactly solvable given three classifiers. We
+illustrate this by doing a simulated evaluation.
+
+2. [FindingErrorIndependentTrios.nb](./FindingErrorIndependentTrios.nb) is the
+main experimental demonstration of our submission. Error independence can be
+minimized by engineering classifiers. But how can we know that the independence
+assumption applies in any given evaluation context? Algebraic evaluators solve
+this perennial paradox of evaluation. The algebraic numbers they return can
+alarm about the failure of the independence assumption itself. In this notebook
+that idea is used in conjunction with another algebraic geometry idea - the
+evaluation variety (the surface on which the true evaluation values must be)
+can be constrained to an n-dimensional surface in a 2n+1 parameter space. This
+allows us to scan for classifier trios that are most uncorrelated on unlabeled
+data.
+
+3. [MathematicaOnTheRaspberryPi.nb](./MathematicaOnTheRaspberryPi) provides
+links necessary to install Mathematica on a Raspberry Pi. This greatly reduces
+the barriers to using and exploring these computational ideas.
+
+4. [AnEnablingTechnology.nb](./AnEnablingTechnology.nb) briefly outlines the many
+ways that algebraic evaluators can be leveraged and their usefulness. Three
+applications of algebraic evaluators are briefly discussed - AutoML, Fair AI,
+and Error Correction.
+
+5. [DifferentNotionsOfIndependence.md](./DifferentNotionsOfIndependence.md)
+The idea of independence is widespread in science and mathematics. We have
+linear independence, algebraic independence, etc. Most literature in AI uses
+the notion of statistical distribution independence. Since algebraic evaluators
+do not use probability distributions, they have a different definition of
+independence. This document discusses the sample definition of error independence
+used by algebraic evaluators. It contrasts it with the distribution independence
+definition. In addition, it provides definitions for all the error correlations
+needed to completely describe any ensemble of binary classifiers.
+
+6.[EvaluatingSamplesIsNotLearningDistributions.md](./EvaluatingSamplesIsNotLearningDistributions.md)
+points out the differences between the statistics of finite samples and the
+statistics of infinite samples that are  most relevant to understanding the
+strengths and limitations of algebraic  evaluators. It also illustrates how
+evaluation theory is an alternative to learning theory. Much comtemporary
+research tries to solve, on the learning side, problems that can also be solved
+on the evaluation side.
+
+7. [FurtherReading.nb](./FurtherReading.nb) gives a short, eclectic reading list
+to books that touch on the broader aspects of this submission. Since the topic
+of evaluation and authority touches many other facets of our societies, these
+connections are inevitable. Here we highlight some of those connections in the
+philosophy of science, pedagogy, and technological systems.
