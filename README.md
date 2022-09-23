@@ -55,13 +55,14 @@ clarify the advantages and limitations of doing this.
 
 GroundSeer(tm) and these notebooks rely on the mathematics of Algebraic
 Geometry. The explanation and demonstration of the core theorem used in this
-repository is TheCoreTheorem.nb. The experiments in it explain how one can use
+repository is [TheCoreTheorem.nb](./TheCoreTheorem.nb).
+The experiments in it explain how one can use
 the voting frequencies of three noisy binary classifiers to evaluate them. They
 can self-grade algebraically. Understanding the construction of the theorem can
 be a springboard to other such algebraic evaluators.
 
 To facilitate exploration by anyone, the
-[FindingErrorIndependentTrios.nb](./FindingIndependentTrios.nb) app,
+[FindingIndependentTrios.nb](./FindingIndependentTrios.nb) app,
 does not require that you fully understand the math behind it. You are given the
 tool for evaluation and then asked to explore, empirically, various ways to use
 it. These ideas are not exhaustive, they are suggestive. We hope you can take
