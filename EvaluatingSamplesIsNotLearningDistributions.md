@@ -39,18 +39,18 @@ engineering. Why is this not so for AI safety and auditing? Why must we only
 have intelligent auditors? Can we not also have sensors and thermometers that
 tell us when the AI systems are malfunctioning?
 
-## The differences between evaluating finite samples and learning Distributions
+## The Differences Between Evaluating Finite Samples and Learning Distributions
 
 Developing more algebraic evaluators increases our ability to monitor AI Systems
 with different approaches. These are some of the advantages algebraic evaluators
-have over distribution dependent ones.
+have over distribution dependent ones:
 
 1. **Finite known space versus an unknown one** Evaluation is a simpler task
 than learning. One way that it is simpler is that all the necessary parameters
 are known beforehand. They exist in a finite dimensional evaluation space. As
-solutions are developed that can handle more complicated cases in that Finite
+solutions are developed that can handle more complicated cases in that finite
 space, they will be applicable in all future circumstances. The complete solutions
-of the Core Theorem illustrates that. The evaluation is solved exactly in that
+of the core theorem illustrates that. The evaluation is solved exactly in that
 case. No future estimation of its output will ever be needed in the future.
 2. **Algebraic evaluators alarm on their own failures** There is no universal
 evaluator. Nor perfect ones. They all will fail. Algebraic evaluators are
@@ -60,7 +60,7 @@ the evaluation has failed. This "in the box" behavior has barely started to be
 used with notions like "certifiably correct" in robotics.
 3. **Fast computation of estimates** Computing algebraic formulas is much
 faster than carrying out computations with the EM or Monte Carlo methods.
-The input into the algebraic evaluator is already data compressive. whether
+The input into the algebraic evaluator is already data compressive. Whether
 we are considering 1 million or 1 thousand decisions, evaluation with n
 binary classifiers will always take $2^n$ integers. Ensembles of four or five
 classifiers will be more than sufficient in many evaluation tasks. In that
