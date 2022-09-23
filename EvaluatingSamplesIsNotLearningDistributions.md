@@ -40,7 +40,34 @@ tell us when the AI systems are malfunctioning?
 
 ## The differences between evaluating finite samples and learning Distributions
 
-1. Finite known space versus an unknown one.
-2. Algebraic estimates alarm on their own failures.
-3. Fast computation of estimates.
-4. Universal results.
+Developing more algebraic evaluators increases our ability to monitor AI Systems
+with different approaches. These are some of the advantages algebraic evaluators
+have over distribution dependent ones.
+
+1. **Finite known space versus an unknown one** Evaluation is a simpler task
+than learning. One way that it is simpler is that all the necessary parameters
+are known beforehand. They exist in a finite dimensional evaluation space. As
+solutions are developed that can handle more complicated cases in that Finite
+space, they will be applicable in all future circumstances. The complete solutions
+of the Core Theorem illustrates that. The evaluation is solved exactly in that
+case. No future estimation of its output will ever be needed in the future.
+2. **Algebraic evaluators alarm on their own failures** There is no universal
+evaluator. Nor perfect ones. They all will fail. Algebraic evaluators are
+inherently superior to ones based on distributions in this respect. They can
+return complex or non-sensical real numbers. These are immediate alerts that
+the evaluation has failed. This "in the box" behavior has barely started to be
+used with notions like "certifiably correct" in robotics.
+3. **Fast computation of estimates** Computing algebraic formulas is much
+faster than carrying out computations with the EM or Monte Carlo methods.
+The input into the algebraic evaluator is already data compressive. whether
+we are considering 1 million or 1 thousand decisions, evaluation with n
+binary classifiers will always take $2^n$ integers. Ensembles of four or five
+classifiers will be more than sufficient in many evaluation tasks. In that
+case, we are talking about at most 32 integers!
+4. **Universal results** The core theorem applies to any ensemble of binary
+classifiers that are error independent on the sample. That is a very sparse
+set of assumptions. The type of algorithms do not matter. There is no mention
+of sample sizes, etc. Similarly, the $n+1$ surface containing the ground truth
+values of any ensemble is also universal. It does not matter in what context
+we compute this surface. The theorem's guarantee of including the ground truth
+values is universal.
