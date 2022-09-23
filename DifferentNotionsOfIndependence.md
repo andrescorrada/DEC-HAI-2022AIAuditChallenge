@@ -37,7 +37,44 @@ have zero correlation.
 
 ## Sample Defined Error Correlations for an Ensemble of Binary Classifiers
 
+The definition of error correlation for binary classifiers is as follows,
 $$
 \Gamma_{\ell;1,2 \ldots m} = \frac{1}{{D_{\ell}}} \sum_{d \in D_{\ell}} \
-\prod_{i=1}^{m} (1_{\ell_{i,d},\ell} - P_{i,\ell})
+\prod_{i=1}^{m} (1_{\ell_{i,d},\ell} - P_{i,\ell}).
 $$
+The indicator functions $1_{\ell_{i,d},\ell}$ are $1$ when classifier $i$
+decided correctly on the label of item $d$, and $0$ otherwise. Note, that like
+the accuracy of the classifiers on the sample or the prevalence of either label,
+these correlations are also integer ratios. Those integer ratios for the 2-way
+and 3-way correlations between classifiers in a trio can be seen throughout the
+Mathematica notebooks.
+
+These error correlations are notable because they allow us to write down a set
+of polynomials that exactly describe any arbitrarily correlated ensemble of
+binary classifiers. These are horrendously complicated polynomials. They are
+an application of the method of moments to the decisions of noisy judges.
+
+This is were the power of finite samples comes in. These error correlations,
+along with the label accuracies and prevalences are all that is needed. It is
+a finite sized universe that describes all possible evaluations of binary
+classifiers. There are no unknown unknowns in algebraic evaluation of binary
+classifiers. That advantage should be leveraged in AI audits.
+
+### The number of known unknowns
+
+Most of the submission is confined to discussions of the $2n +1$ dimensional
+space defined by one label prevalence and the label accuracies of the $n$ binary
+classifiers. Along with the error correlations above, we can now measure how big
+the known unknown space of evaluating arbitrarily correlated binary classifiers
+is. We have the $2n + 1$ space without error correlations. To that we must add,
+for each label,  the ${n \choose 2}$ 2-way error correlations, the ${n \choose
+3}$ 3-way error  correlations and so on all the way to the n-way error
+correlations. Adding up all those contributions we get a final size for the
+dimension of the known unknown space needed to evaluate binary classifiers,
+$$2^{n+1} -1.$$
+
+## The Notion of Error Independence for Algebraic evaluators
+
+We can finally define what being **independent** means for a finite sample of
+the decisions of an ensemble of noisy judges. It means that all the m-way error
+correlations defined above are zero.
