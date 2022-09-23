@@ -149,7 +149,7 @@ can be constrained to an n-dimensional surface in a 2n+1 parameter space. This
 allows us to scan for classifier trios that are most uncorrelated on unlabeled
 data.
 
-3. [MathematicaOnTheRaspberryPi.nb](./MathematicaOnTheRaspberryPi) provides
+3. [MathematicaOnTheRaspberryPi.nb](./MathematicaOnTheRaspberryPi.nb) provides
 links necessary to install Mathematica on a Raspberry Pi. This greatly reduces
 the barriers to using and exploring these computational ideas.
 
