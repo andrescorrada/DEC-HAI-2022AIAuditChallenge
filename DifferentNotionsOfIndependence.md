@@ -38,6 +38,6 @@ have zero correlation.
 ## Sample Defined Error Correlations for an Ensemble of Binary Classifiers
 
 $$
-\Gamma = \frac{1}{{D_{\ell}}} \sum_{d \in D_{\ell}} \
+\Gamma_{\ell;1,2 \ldots m} = \frac{1}{{D_{\ell}}} \sum_{d \in D_{\ell}} \
 \prod_{i=1}^{m} (1_{\ell_{i,d},\ell} - P_{i,\ell})
 $$
