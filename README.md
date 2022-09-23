@@ -16,7 +16,7 @@ Who judges the judges? The problem of the authority of noisy judges when we
 ourselves don't know their correct answers is pervasive in society and
 technology. In AI it is exemplified by the Stanford HAI AI Audit Challenge. Our
 submission to the challenge is this open source repository highlighting the
-technology behind our GroundSeer(tm) products - a distribution-free approach to
+technology behind our GroundSeer&trade; products - a distribution-free approach to
 noisy judges evaluation.
 
 The submission focuses on one aspect of the AI Audit Challenge - the ubiquity of
@@ -54,7 +54,7 @@ This use of algebraic, not real numbers, gives them an important edge over
 evaluators that use probability distributions. Using this app will help
 clarify the advantages and limitations of doing this.
 
-GroundSeer(tm) and these notebooks rely on the mathematics of Algebraic
+GroundSeer&trade; and these notebooks rely on the mathematics of Algebraic
 Geometry. The explanation and demonstration of the core theorem used in this
 repository is [TheCoreTheorem.nb](./TheCoreTheorem.nb).
 The experiments in it explain how one can use the voting frequencies of three
