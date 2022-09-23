@@ -32,20 +32,19 @@ verification" problem. They must both evaluate noisy judges without the benefit
 of the ground truth. GroundSeer(tm) is one way to mitigate this problem. The
 main app in this submission is
 [FindingErrorIndependentTrios.nb](./FindingIndependentTrios.nb).
-It uses the same
-core mathematical technology as GroundSeer(tm). We think it can be taken
-further. Our submission is also a call to the curious inventors of the World to
-explore these mathematical ideas and take them in new directions. Anyone in the
-World curious about algebra and AI safety can explore with us.
+It uses the same core mathematical technology as GroundSeer(tm). We think it can
+be taken further. Our submission is also a call to the curious inventors of the
+world to explore these mathematical ideas and take them in new directions. Anyone
+in the world curious about algebra and AI safety can explore with us.
 
-All the code in this repository is written in Mathematica. This platform for the
-Wolfram Language is perfect for our task. Mathematica neatly integrates the
+All the code in this repository is written in Mathematica, a platform for the
+Wolfram Language that is perfect for our task. Mathematica neatly integrates the
 data, programming, and algebraic aspects of evaluating noisy AI judges. Anybody
 with access to a RaspberryPi can execute and experiment with this code. We hope
 they do.
 
 The core of that exploration is in
-[FindingErrorIndependentTrios.nb](./FindingIndependentTrios.nb)
+[FindingErrorIndependentTrios.nb](./FindingIndependentTrios.nb).
 Various useful properties of algebraic evaluators are used to find
 error independent trios of binary classifiers on unlabeled data.
 For example, they can alarm on their own failure, making them useful for
@@ -57,10 +56,10 @@ clarify the advantages and limitations of doing this.
 GroundSeer(tm) and these notebooks rely on the mathematics of Algebraic
 Geometry. The explanation and demonstration of the core theorem used in this
 repository is [TheCoreTheorem.nb](./TheCoreTheorem.nb).
-The experiments in it explain how one can use
-the voting frequencies of three noisy binary classifiers to evaluate them. They
-can self-grade algebraically. Understanding the construction of the theorem can
-be a springboard to other such algebraic evaluators.
+The experiments in it explain how one can use the voting frequencies of three
+noisy binary classifiers for their own evaluation using algebraic self-grading.
+Understanding the construction of the theorem can be a springboard to other
+such algebraic evaluators.
 
 To facilitate exploration by anyone, the
 [FindingIndependentTrios.nb](./FindingIndependentTrios.nb) app,
@@ -109,7 +108,7 @@ algebraic nature of the solution gives us a way to mitigate this safety failure.
 ### 2. Algebraic outputs can help alarm when evaluation assumptions are wrong.
 
 The algebraic evaluator that forms the core of our submission is a deterministic
-function that produces algebraic numbers. It has one big Achilles heel: it only
+function that produces algebraic numbers. It has one big Achilles' heel: it only
 works correctly on binary classifiers that are error independent in the sample.
 This "bug" is a safety "feature." The appearance of out-of-bounds or complex
 numbers in the output of the evaluator would be an immediate signal that the
@@ -175,7 +174,7 @@ needed to completely describe any ensemble of binary classifiers.
 points out the differences between the statistics of finite samples and the
 statistics of infinite samples that are  most relevant to understanding the
 strengths and limitations of algebraic  evaluators. It also illustrates how
-evaluation theory is an alternative to learning theory. Much comtemporary
+evaluation theory is an alternative to learning theory. Much contemporary
 research tries to solve, on the learning side, problems that can also be solved
 on the evaluation side.
 
