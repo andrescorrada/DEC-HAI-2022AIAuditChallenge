@@ -48,7 +48,7 @@ The core of that exploration is in
 [FindingErrorIndependentTrios.nb](./FindingIndependentTrios.nb)
 Various useful properties of algebraic evaluators are used to find
 error independent trios of binary classifiers on unlabeled data.
-For example, they can alarm on their own failure. This makes them useful for
+For example, they can alarm on their own failure, making them useful for
 AI safety. The reason they can alarm is that they output algebraic numbers.
 This use of algebraic, not real numbers, gives them an important edge over
 evaluators that use probability distributions. Using this app will help
@@ -129,14 +129,14 @@ code lines should convince the curious reader that they can quickly build their
 own experimental uses.
 
 Wolfram and Raspberry Pi extend further the possible audience of young
-researchers and inventors that can play with these ideas.
+researchers and inventors who can play with these ideas.
 
 ## A Guide to the Repository
 
 1. [TheCoreTheorem.nb](./TheCoreTheorem.nb) illustrates the core mathematical idea
 of this submission - we can build systems of polynomial equations that relate
 unknown evaluation statistics to observable moments of the decisions by the
-classifiers on a test sample. in the case of error independent classifiers, the
+classifiers on a test sample. In the case of error independent classifiers, the
 resulting polynomial system is exactly solvable given three classifiers. We
 illustrate this by doing a simulated evaluation.
 
