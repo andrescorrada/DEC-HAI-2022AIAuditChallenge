@@ -73,6 +73,15 @@ error correlations. Adding up all those contributions we get a final size for
 the dimension of the known unknown space needed to evaluate binary classifiers,
 $$2^{n+1} -1.$$
 
+This finite dimensional space will be eventually understood. Data Engines
+currently works with algebraic evaluators that use 2-way correlations. One can
+view this as an error correction methodology. To understand 2-way correlations,
+we need at least three classifiers, to understand 3-way, four classifiers and so
+on. Good engineering will consist of developing ensembles that are not
+necessarily accurate but independent in their errors. Just like other
+techonlogy, the operating point will be around understood regimes where only a
+few of the m-way correlation values need to be measured. 
+
 ## The Notion of Error Independence for Algebraic evaluators
 
 We can finally define what being **independent** means for a finite sample of
