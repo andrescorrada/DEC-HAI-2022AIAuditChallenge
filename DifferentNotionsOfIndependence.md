@@ -39,5 +39,5 @@ have zero correlation.
 
 $$
 \Gamma = \frac{1}{{D_{\ell}}} \sum_{d \in D_{\ell}} \
-\prod_{i=1}^{m} (\mathbbm{1}_{\ell_{i,d},\ell} - P_{i,\ell})
+\prod_{i=1}^{m} (1_{\ell_{i,d},\ell} - P_{i,\ell})
 $$
