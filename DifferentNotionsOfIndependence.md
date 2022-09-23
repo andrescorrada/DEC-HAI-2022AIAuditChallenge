@@ -67,10 +67,10 @@ space defined by one label prevalence and the label accuracies of the $n$ binary
 classifiers. Along with the error correlations above, we can now measure how big
 the known unknown space of evaluating arbitrarily correlated binary classifiers
 is. We have the $2n + 1$ space without error correlations. To that we must add,
-for each label,  the ${n \choose 2}$ 2-way error correlations, the ${n \choose
-3}$ 3-way error  correlations and so on all the way to the n-way error
-correlations. Adding up all those contributions we get a final size for the
-dimension of the known unknown space needed to evaluate binary classifiers,
+for each label,  the ${n \choose 2}$ 2-way error correlations, the
+${n \choose 3}$ 3-way error  correlations and so on all the way to the n-way
+error correlations. Adding up all those contributions we get a final size for
+the dimension of the known unknown space needed to evaluate binary classifiers,
 $$2^{n+1} -1.$$
 
 ## The Notion of Error Independence for Algebraic evaluators
