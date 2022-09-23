@@ -77,6 +77,7 @@ them further.
          alt="Severing the master/disciple paradigm of only-intelligent evaluation"
          height="400">
     <figcaption>
+    Figure Caption:
     <b>Disolving the master/slave relationship of "only intelligent evaluation"
     </b></figcaption>
 </figure>
@@ -108,9 +109,9 @@ algebraic nature of the solution gives us a way to mitigate this safety failure.
 ### 2. Algebraic outputs can help alarm when evaluation assumptions are wrong.
 
 The algebraic evaluator that forms the core of our submission is a deterministic
-function that produces algebraic numbers. It has one big Achilles heel - it only
+function that produces algebraic numbers. It has one big Achilles heel: it only
 works correctly on binary classifiers that are error independent in the sample.
-This "bug" is a safety "feature." The appearance of out of bounds or complex
+This "bug" is a safety "feature." The appearance of out-of-bounds or complex
 numbers in the output of the evaluator would be an immediate signal that the
 evaluator's independence assumptions are horribly wrong. This is useful.
 
