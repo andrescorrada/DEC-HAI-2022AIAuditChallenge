@@ -82,7 +82,7 @@ necessarily accurate but independent in their errors. Just like other
 techonlogy, the operating point will be around understood regimes where only a
 few of the m-way correlation values need to be measured.
 
-## The Notion of Error Independence for Algebraic evaluators
+## The Notion of Error Independence for Algebraic Evaluators
 
 We can finally define what being **independent** means for a finite sample of
 the decisions of an ensemble of noisy judges. It means that all the m-way error
