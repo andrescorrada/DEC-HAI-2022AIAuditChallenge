@@ -37,3 +37,10 @@ The combination of intelligent machines with dumb sensors is common in safety
 engineering. Why is this not so for AI safety and auditing? Why must we only
 have intelligent auditors? Can we not also have sensors and thermometers that
 tell us when the AI systems are malfunctioning?
+
+## The differences between evaluating finite samples and learning Distributions
+
+1. Finite known space versus an unknown one.
+2. Algebraic estimates alarm on their own failures.
+3. Fast computation of estimates.
+4. Universal results.
