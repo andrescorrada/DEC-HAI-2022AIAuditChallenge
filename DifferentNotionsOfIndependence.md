@@ -38,10 +38,7 @@ have zero correlation.
 ## Sample Defined Error Correlations for an Ensemble of Binary Classifiers
 
 The definition of error correlation for binary classifiers is as follows,
-$$ \
-\Gamma_{\ell;1,2 \ldots m} = \frac{1}{{D_{\ell}}} \sum_{d \in D_{\ell}} \
-\prod_{i=1}^{m} (1_{\ell_{i,d},\ell} - P_{i,\ell}). \
-$$
+$$ \Gamma_{\ell;1,2 \ldots m} = \frac{1}{{D_{\ell}}} \sum_{d \in D_{\ell}} \prod_{i=1}^{m} (1_{\ell_{i,d},\ell} - P_{i,\ell}). $$
 The indicator functions $1_{\ell_{i,d},\ell}$ are $1$ when classifier $i$
 decided correctly on the label of item $d$, and $0$ otherwise. Note, that like
 the accuracy of the classifiers on the sample or the prevalence of either label,
