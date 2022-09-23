@@ -29,7 +29,9 @@ patent is the world's first distribution-free evaluator of noisy AI judges.
 The safety engineer and the philosopher of science face the same "last mile
 verification" problem. They must both evaluate noisy judges without the benefit
 of the ground truth. GroundSeer(tm) is one way to mitigate this problem. The
-main app in this submission is FindingErrorIndependentTrios.nb. It uses the same
+main app in this submission is
+[FindingErrorIndependentTrios.nb](./FindingIndependentTrios.nb).
+It uses the same
 core mathematical technology as GroundSeer(tm). We think it can be taken
 further. Our submission is also a call to the curious inventors of the World to
 explore these mathematical ideas and take them in new directions. Anyone in the
@@ -41,12 +43,15 @@ data, programming, and algebraic aspects of evaluating noisy AI judges. Anybody
 with access to a RaspberryPi can execute and experiment with this code. We hope
 they do.
 
-The core of that exploration is an initial app FindingErrorIndependentTrios.nb
-that shows one of the many advantages of distribution-free evaluators. They can
-alarm on their own failure. This makes them useful for AI safety. This use of
-algebraic, not real numbers, gives them an important edge over evaluators that
-use probability distributions. Using this app will help clarify the advantages
-and limitations of doing this.
+The core of that exploration is in
+[FindingErrorIndependentTrios.nb](./FindingIndependentTrios.nb)
+Various useful properties of algebraic evaluators are used to find
+error independent trios of binary classifiers on unlabeled data.
+For example, they can alarm on their own failure. This makes them useful for
+AI safety. The reason they can alarm is that they output algebraic numbers.
+This use of algebraic, not real numbers, gives them an important edge over
+evaluators that use probability distributions. Using this app will help
+clarify the advantages and limitations of doing this.
 
 GroundSeer(tm) and these notebooks rely on the mathematics of Algebraic
 Geometry. The explanation and demonstration of the core theorem used in this
@@ -55,7 +60,8 @@ the voting frequencies of three noisy binary classifiers to evaluate them. They
 can self-grade algebraically. Understanding the construction of the theorem can
 be a springboard to other such algebraic evaluators.
 
-To facilitate exploration by anyone, the FindingErrorIndependentTrios.nb app,
+To facilitate exploration by anyone, the
+[FindingErrorIndependentTrios.nb](./FindingIndependentTrios.nb) app,
 does not require that you fully understand the math behind it. You are given the
 tool for evaluation and then asked to explore, empirically, various ways to use
 it. These ideas are not exhaustive, they are suggestive. We hope you can take
@@ -130,7 +136,7 @@ classifiers on a test sample. in the case of error independent classifiers, the
 resulting polynomial system is exactly solvable given three classifiers. We
 illustrate this by doing a simulated evaluation.
 
-2. [FindingErrorIndependentTrios.nb](./FindingErrorIndependentTrios.nb) is the
+2. [FindingIndependentTrios.nb](./FindingIndependentTrios.nb) is the
 main experimental demonstration of our submission. Error independence can be
 minimized by engineering classifiers. But how can we know that the independence
 assumption applies in any given evaluation context? Algebraic evaluators solve
