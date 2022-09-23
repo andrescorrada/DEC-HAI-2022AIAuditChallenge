@@ -37,7 +37,8 @@ have zero correlation.
 
 ## Sample Defined Error Correlations for an Ensemble of Binary Classifiers
 
-The definition of error correlation for binary classifiers is as follows,
+The definition of the m-way error correlation for m binary classifiers is as
+follows,
 
 $$ \Gamma_{\ell ;1,2 \ldots m} = \frac{1}{{D_{\ell}}} \sum_{d \in D_{\ell}} \prod_{i=1}^{m} (1_{\ell_{i,d},\ell} - P_{i,\ell}). $$
 
