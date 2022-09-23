@@ -23,16 +23,17 @@ The submission focuses on one aspect of the AI Audit Challenge - the ubiquity of
 black-box noisy AI algorithms. How can we know that these algorithms are working
 correctly once deployed? How can we have any assurance of their correctness
 without access to their internals so we can audit them? We need to be able to
-monitor AI algorithms on the wild and we need to do so robustly. GroundSeer(tm)
+monitor AI algorithms on the wild and we need to do so robustly.
+GroundSeer&trade;
 points in one direction that can help us with this grand challenge. Its 2010
 patent is the world's first distribution-free evaluator of noisy AI judges.
 
 The safety engineer and the philosopher of science face the same "last mile
 verification" problem. They must both evaluate noisy judges without the benefit
-of the ground truth. GroundSeer(tm) is one way to mitigate this problem. The
+of the ground truth. GroundSeer&trade; is one way to mitigate this problem. The
 main app in this submission is
 [FindingErrorIndependentTrios.nb](./FindingIndependentTrios.nb).
-It uses the same core mathematical technology as GroundSeer(tm). We think it can
+It uses the same core mathematical technology as GroundSeer&trade;. We think it can
 be taken further. Our submission is also a call to the curious inventors of the
 world to explore these mathematical ideas and take them in new directions. Anyone
 in the world curious about algebra and AI safety can explore with us.

@@ -6,7 +6,7 @@ construct "doctors" - algorithms and processes that encode the learning processe
 and data that made them. Building good doctors is essential to creating safe and
 fair AI systems. Understandably, this has lead to a lot of work done on learning
 theory to guarantee AI performance SLAs (Service Level Agreements). And a lot of
-recent work has gone into learning theory under out-of-distribution conditions --
+recent work has gone into learning theory under out-of-distribution conditions -
 you train on data created by one distribution of the task data, but the model
 so trained is actually deployed in an environment best modeled with another
 distribution.
@@ -19,7 +19,8 @@ and actually pervades much work and discussion of the subject of AI safety.
 
 It is understandable that this is so. The authority of noisy judges is a problem
 considered by many traditions. In Ancient Greek Philosophy, we have the example
-of Plato and his [Ship of Fools Allegory](https://en.wikipedia.org/wiki/Ship_of_fools).
+of Plato and his
+[Ship of Fools Allegory](https://en.wikipedia.org/wiki/Ship_of_fools).
 He is concerned that the democratic mob is going to be unable to recognize the
 virtuous captain and thus lead to the eventual capsizing of the Ship of State.
 Because, of course, unsaid by him and many that hold this same
