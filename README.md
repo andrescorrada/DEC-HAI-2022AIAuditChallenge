@@ -7,7 +7,7 @@ Thermometers for AI Auditing: Algebraic Evaluators of Noisy Judges on Unlabeled 
          alt="The master/disciple evaluation paradigm."
          height="400">
     <figcaption>
-    The assumption of "only intelligent evaluation"</figcaption>
+    Figure Caption: **The assumption of "only intelligent evaluation**</figcaption>
 </figure>
 </p>
 
