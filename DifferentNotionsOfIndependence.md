@@ -36,5 +36,8 @@ generates the judges' decisions, may, on occasion, produce finite samples that
 have zero correlation.
 
 ## Sample Defined Error Correlations for an Ensemble of Binary Classifiers
-$\newcommand{\vect}[1]{{\mathbf{\boldsymbol{{#1}}}}}$
-This is the vector $\vect{x}$.
+
+$$
+\Gamma = \frac{1}{{D_{\ell}}} \sum_{d \in D_{\ell}} \
+\prod_{i=1}^{m} (\mathbbm{1}_{\ell_{i,d},\ell} - P_{i,\ell})
+$$
