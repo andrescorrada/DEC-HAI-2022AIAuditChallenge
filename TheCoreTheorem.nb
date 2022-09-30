@@ -42,7 +42,7 @@ The core mathematical theorem of our submission is explained here.\
 Cell[CellGroupData[{
 
 Cell["\<\
-The Polynomial System - Algebra of Error for Independent Binary Classifiers\
+The Polynomial System&mdash;Algebra of Error for Independent Binary Classifiers\
 \>", "Section",
  CellChangeTimes->{{3.7287194179524193`*^9, 3.728719429143127*^9}, {
   3.728719598370187*^9, 
@@ -352,7 +352,7 @@ class of problems that frequently admit exact solution are those that assume \
 some sort of independence. We are doing the same here. This unrealistic \
 solution will turn out to be very useful in practice.
 
-The following commands create the ground truth for this problem - a list of \
+The following commands create the ground truth for this problem&mdash;a list of \
 labels for the true label of each data point in the dataset.\
 \>", "Text",
  CellChangeTimes->{{3.728887214297925*^9, 3.728887231105381*^9}, {
@@ -731,7 +731,7 @@ Cell[BoxData[
 
 Cell["\<\
 4. Now we can construct the left side input of the ground truth polynomials \
-for independent binary classifiers - the frequency of the voting patters\
+for independent binary classifiers&mdash;the frequency of the voting patters\
 \>", "Text",
  CellChangeTimes->{{3.728889072955759*^9, 
   3.7288891316558943`*^9}},ExpressionUUID->"972850d2-ddea-4e79-ae9d-\
@@ -880,7 +880,7 @@ Cell["\<\
 Everything looks okay with our synthetic data. Note that votingPatternCounts \
 no longer contains any information about the true label for any of the data \
 points in labelGroundTruth. Hence, any algorithm that only uses \
-votingPatternCounts - the observed frequency of classifier voting patterns, \
+votingPatternCounts&mdash;the observed frequency of classifier voting patterns, \
 would be carrying out ground truth inference. The goal of the next section is \
 to estimate classifierAccuracies and the prevalence of the labels using only \
 votingPatternCounts.\
