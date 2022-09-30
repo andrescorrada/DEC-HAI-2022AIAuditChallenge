@@ -6,15 +6,15 @@ construct "doctors" - algorithms and processes that encode the learning processe
 and data that made them. Building good doctors is essential to creating safe and
 fair AI systems. Understandably, this has lead to a lot of work done on learning
 theory to guarantee AI performance SLAs (Service Level Agreements). And a lot of
-recent work has gone into learning theory under out-of-distribution conditions -
-you train on data created by one distribution of the task data, but the model
+recent work has gone into learning theory under out-of-distribution conditions&mdash;you
+train on data created by one distribution of the task data, but the model
 so trained is actually deployed in an environment best modeled with another
 distribution.
 
 If you have a hammer, everything looks like a nail. It has been our experience
 talking to colleagues, and in Twitter threads, that evaluation of samples is
-viewed with a probability distribution prism - it can **only** be done using
-distributions. This assumption - "only intelligent evaluation" - is unstated
+viewed with a probability distribution prism&mdash;it can **only** be done using
+distributions. This assumption&mdash;"only intelligent evaluation"&mdash;is unstated
 and actually pervades much work and discussion of the subject of AI safety.
 
 It is understandable that this is so. The authority of noisy judges is a problem
