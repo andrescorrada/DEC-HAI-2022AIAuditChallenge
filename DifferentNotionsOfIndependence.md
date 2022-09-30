@@ -3,7 +3,7 @@
 Algebraic evaluators do not use probability distributions so their notion of
 independence is different than the one used by evaluators that use them.
 The notion of independence most commonly used in the AI literature is defined
-in terms of the expectation of distributions - an infinite sample viewpoint.
+in terms of the expectation of distributions&mdash;an infinite sample viewpoint.
 For algebraic evaluators we have to use sample defined quantities.
 
 The sample defined error correlations defined below should be familiar to
