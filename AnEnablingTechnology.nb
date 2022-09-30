@@ -63,9 +63,9 @@ Finding least correlated ensembles on large unlabeled test sets\
 81c14d2916af"],
 
 Cell["\<\
-The problem of correlated classifiers is the Achilles heel of algebraic \
-evaluators. This presents the engineer of robust AI systems  that uses them \
-with a challenge - how do we build ensembles of classifiers that are, as best \
+The problem of correlated classifiers is the Achilles' heel of algebraic \
+evaluators. This presents the engineer of robust AI systems that uses them \
+with a challenge&mdash;how do we build ensembles of classifiers that are, as best \
 we can, independently correlated in their errors on a large unlabeled test \
 set? We use the failures of the independent trio formula to reject possible \
 candidates. Here are some suggestions on what sort of scans you could do to \
@@ -116,7 +116,7 @@ configurations. Compare that to the error in the rejected ones. \
 41a7ff40e974"],
 
 Cell["\<\
-Also compare it to various other random guessing that would be sensible - a \
+Also compare it to various other random guessing that would be sensible&mdash;a \
 real number between 0 and 1. These random guessers are good proxies for \
 having no information except the one that you need to make in order to decode \
 the multiple answers given by algebraic evaluators. For example, the \
@@ -217,7 +217,7 @@ Cell["Error-Correction Codes", "Section",
 9789a4ff8ebc"],
 
 Cell[TextData[{
- "Hamming famously quipped - \[OpenCurlyDoubleQuote]Damn it, if the computer \
+ "Hamming famously quipped&mdash;\[OpenCurlyDoubleQuote]Damn it, if the computer \
 knows I am wrong, why can\[CloseCurlyQuote]t it fix it?\
 \[CloseCurlyDoubleQuote] He went on to invent error correcting codes. What \
 error-correcting codes can you invent with the independent trio evaluator? \
