@@ -13,13 +13,13 @@ Thermometers for AI Auditing: Algebraic Evaluators of Noisy Judges on Unlabeled 
 </p>
 
 Who judges the judges? The problem of the authority of noisy judges when we
-ourselves don't know their correct answers is pervasive in society and
+ourselves don't know the correct answers is pervasive in society and
 technology. In AI it is exemplified by the Stanford HAI AI Audit Challenge. Our
 submission to the challenge is this open source repository highlighting the
-technology behind our GroundSeer&trade; products - a distribution-free approach to
+technology behind our GroundSeer&trade; products&mdash;a distribution-free approach to
 noisy judges evaluation.
 
-The submission focuses on one aspect of the AI Audit Challenge - the ubiquity of
+The submission focuses on one aspect of the AI Audit Challenge&mdash;the ubiquity of
 black-box noisy AI algorithms. How can we know that these algorithms are working
 correctly once deployed? How can we have any assurance of their correctness
 without access to their internals so we can audit them? We need to be able to
@@ -134,7 +134,7 @@ researchers and inventors who can play with these ideas.
 ## A Guide to the Repository
 
 1. [TheCoreTheorem.nb](./TheCoreTheorem.nb) illustrates the core mathematical idea
-of this submission - we can build systems of polynomial equations that relate
+of this submission&mdash;we can build systems of polynomial equations that relate
 unknown evaluation statistics to observable moments of the decisions by the
 classifiers on a test sample. In the case of error independent classifiers, the
 resulting polynomial system is exactly solvable given three classifiers. We
@@ -146,7 +146,7 @@ minimized by engineering classifiers. But how can we know that the independence
 assumption applies in any given evaluation context? Algebraic evaluators solve
 this perennial paradox of evaluation. The algebraic numbers they return can
 alarm about the failure of the independence assumption itself. In this notebook
-that idea is used in conjunction with another algebraic geometry idea - the
+that idea is used in conjunction with another algebraic geometry idea&mdash;the
 evaluation variety (the surface on which the true evaluation values must be)
 can be constrained to an n-dimensional surface in a 2n+1 parameter space. This
 allows us to scan for classifier trios that are most uncorrelated on unlabeled
@@ -158,7 +158,7 @@ the barriers to using and exploring these computational ideas.
 
 4. [AnEnablingTechnology.nb](./AnEnablingTechnology.nb) briefly outlines the many
 ways that algebraic evaluators can be leveraged and their usefulness. Three
-applications of algebraic evaluators are briefly discussed - AutoML, Fair AI,
+applications of algebraic evaluators are briefly discussed&mdash;AutoML, Fair AI,
 and Error Correction.
 
 5. [DifferentNotionsOfIndependence.md](./DifferentNotionsOfIndependence.md)
