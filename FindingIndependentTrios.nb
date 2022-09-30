@@ -31,15 +31,15 @@ The core theorem of this submission shows that if we had error independent \
 classifiers on a sample, we could efficiently calculate the two possible \
 point solutions to their performance and the true prevalence of the two \
 classes. But how can we know the classifiers are actually independent on \
-unlabeled data? This seems like a chicken and egg problem. And it is for \
-evaluation methods that rely on real numbers like all probability \
+unlabeled data? This seems like a chicken and egg problem, and it is for \
+evaluation methods that rely on real numbers&mdash;like all probability \
 distribution approaches. In this notebook you will see how we can actually \
 measure distances between the solutions of the purported independent solution \
 and a universal surface that must contain the correct evaluations. This makes \
 algebraic evaluators self-checking on their assumptions.
 The notebook is organized as follows:
 
-1. Alarms : we briefly talk about how all alarms have flaws. Proper safety \
+1. Alarms: we briefly talk about how all alarms have flaws. Proper safety \
 engineering requires that they be evaluated in their application context.
 2. A Universal Evaluation Surface Containing the True Performance: Even when \
 we avoid the problem of computing the actual error correlations, we can \
@@ -81,7 +81,7 @@ future safety. But it fails. This notebook is about using its failures to \
 find the most independent trios on a particular dataset.
   This is an exercise that cannot be carried out with probabilistic \
 evaluators of noisy judges. By construction they will always return sensible \
-answers - always real numbers. They never fail! We think that is a flaw for \
+answers&mdash;always real numbers. They never fail! We think that is a flaw for \
 AI safety.\
 \>", "Text",
  CellChangeTimes->{{3.870418067075*^9, 3.8704182117632*^9}, {
@@ -131,7 +131,7 @@ must be wrong.\
 
 Cell["\<\
 Finally, the independent algebraic evaluator can return complex numbers: a \
-clearly non-sensical answer.\
+clearly nonsensical answer.\
 \>", "ItemNumbered",
  CellChangeTimes->{{3.872826055618862*^9, 
   3.8728265233527193`*^9}},ExpressionUUID->"41e2b6e0-d550-43a9-80ae-\
@@ -2087,8 +2087,8 @@ are going to involve repeated random draws for training and testing. The \
 training side represents the labeled data we have for building classifiers \
 \[OpenCurlyDoubleQuote]in the lab\[CloseCurlyDoubleQuote], if you will. The \
 testing side represents the reality during deployment where we must evaluate \
-without knowledge of the labels. Any mixing of the two pools - training and \
-testing - would invalidate any strong conclusions about being able to perform \
+without knowledge of the labels. Any mixing of the two pools&mdash;training and \
+testing&mdash;would invalidate any strong conclusions about being able to perform \
 a task without ground truth since the mixing allowed during the experiment \
 would be absent. We have to treat the unlabeled data as it is future data and \
 completely unavailable for the training phases of our experiments.\
@@ -2217,8 +2217,8 @@ dc9e33f1a7fe"],
 Cell["\<\
 The math of the central theorem is agnostic as to its meaning. Application \
 context determines that meaning. We are using that math to estimate \
-performance statistics for the classifiers and one environmental variable - \
-the prevalence.  These statistics are, by definition, confined to the range \
+performance statistics for the classifiers and one environmental variable&mdash; \
+the prevalence. These statistics are, by definition, confined to the range \
 of 0 to 1. In addition, we know that the their true values must be some ratio \
 of integers. Our uncertainty is thus bound by a unit hypercube anchored at \
 the origin and with the diagonally opposite point at the (1,1,1,1,1,1,1) point.
